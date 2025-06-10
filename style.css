@@ -1,0 +1,13 @@
+#field {
+   border: 1px solid black;
+}
+
+.cell {
+   width: 2px;
+   height: 2px;
+   border: 0px;
+}
+
+.alive {
+   background-color: black;
+}
