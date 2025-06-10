@@ -78,6 +78,7 @@ function newGeneration() {
                      let ny = (y + dy + sizeY) % sizeY;
                      if (cells[ny][nx] == EMPTY && Math.random() < 0.2) {
                         newCells[ny][nx] = ALIVE;
+                        i++;
                      }
                   }
                }
